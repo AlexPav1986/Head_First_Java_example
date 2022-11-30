@@ -5,7 +5,8 @@ class Dog {
         return size;
     }
     public void setSize(int s) {
-        size = s;
+        if (s > 10) {
+        size = s;}
     }
 
     void bark() {
